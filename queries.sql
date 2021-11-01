@@ -15,3 +15,9 @@
 -- (Stretch) Find a query to discover how many different cities are stored in the Customers table. Repeats should not be double counted
 
 -- (Stretch) Find all suppliers who have names longer than 20 characters. You can use `length(SupplierName)` to get the length of the name
+
+--select * from customers where postalcode = '1010';
+--select * from suppliers where supplierid = '11';
+--select * from orders where orderID > 10433 order by orderDate desc;
+--select * from customers where country = "Brazil" or city = "London" or city = "Madrid";
+--insert into customers (CustomerName, ContactName, Address, City, PostalCode, Country) values ("The Shire", "Bilbo Baggins", "1 Hobbit-Hole", "Bag End", "111", "Middle Earth");
